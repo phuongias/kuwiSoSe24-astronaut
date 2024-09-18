@@ -27873,7 +27873,7 @@ SpriteRenderer:
   m_Size: {x: 147.51932, y: 102.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1329821409
@@ -28078,7 +28078,7 @@ SpriteRenderer:
   m_Size: {x: 147.51932, y: 102.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1338502680
@@ -33418,7 +33418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb2595be45ab4b4c97ea3d7add25876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
+  moveSpeed: 2
   walkSprites: []
   animationSpeed: 0.1
   staySprite: {fileID: 0}

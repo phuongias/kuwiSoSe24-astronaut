@@ -47,6 +47,14 @@ public class PlayerController : MonoBehaviour
         movement = context.ReadValue<Vector2>();
         bool isMoving = movement != Vector2.zero;
         spriteAnimator.SetBool("IsMoving", isMoving); // Animator-Parameter setzen
+        if (movement.x > 0)
+        {
+            spriteRenderer.flipX = false; // Face right
+        }
+        else if (movement.x < 0)
+        {
+            spriteRenderer.flipX = true; // Face left
+        }
     }
 
     private void Move()
