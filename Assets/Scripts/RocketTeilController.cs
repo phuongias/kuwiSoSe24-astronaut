@@ -4,13 +4,13 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TeilSpitzeController : MonoBehaviour
+public class RocketTeilController : MonoBehaviour
 
 {
     [SerializeField]
-    private TextMeshProUGUI progressText; 
-    private static int totalParts = 3; 
-    private static int partsPickedUp = 0; 
+    public TextMeshProUGUI progressText; 
+    public static int totalParts = 3; 
+    public static int partsPickedUp = 0; 
 
     [SerializeField]
     private TextMeshProUGUI pickUpText;
@@ -57,7 +57,11 @@ public class TeilSpitzeController : MonoBehaviour
     {
         if (progressText != null)
         {
-            progressText.text = $"{partsPickedUp}/{totalParts} Rocket Parts";
+            progressText.text = $"{partsPickedUp} von {totalParts} Raketenteile eingesammelt.";
+            if (partsPickedUp == totalParts)
+            {
+                progressText.text = $"Alle {totalParts} Raketenteile eingesammelt.";
+            }
         }
     }
 }
