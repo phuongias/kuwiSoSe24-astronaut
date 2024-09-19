@@ -10411,6 +10411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571103417}
   - component: {fileID: 571103416}
+  - component: {fileID: 571103418}
   m_Layer: 0
   m_Name: TeilAuspuff
   m_TagString: Untagged
@@ -10485,6 +10486,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &571103418
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571103415}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.3701277, y: -22.786634}
+  m_Size: {x: 20.948992, y: 9.34666}
+  m_Direction: 1
 --- !u!1 &586663960
 GameObject:
   m_ObjectHideFlags: 0
@@ -16860,6 +16896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910303458}
   - component: {fileID: 910303457}
+  - component: {fileID: 910303459}
   m_Layer: 0
   m_Name: TeilSpitze
   m_TagString: Untagged
@@ -16928,12 +16965,47 @@ Transform:
   m_GameObject: {fileID: 910303456}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.36, y: 15.23, z: 0}
-  m_LocalScale: {x: 0.020614611, y: 0.019749627, z: 1}
+  m_LocalPosition: {x: 12.48, y: 15.21, z: 0}
+  m_LocalScale: {x: 0.0234182, y: 0.027819324, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &910303459
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910303456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.6561432, y: 16.636677}
+  m_Size: {x: 29.534584, y: 13.966665}
+  m_Direction: 1
 --- !u!1 &913837859
 GameObject:
   m_ObjectHideFlags: 0
@@ -21009,6 +21081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020121242}
   - component: {fileID: 1020121241}
+  - component: {fileID: 1020121243}
   m_Layer: 0
   m_Name: TeilFlagge
   m_TagString: Untagged
@@ -21083,6 +21156,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1020121243
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020121240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.8799589, y: 0.7600795}
+  m_Size: {x: 35.180313, y: 18.898695}
+  m_Direction: 1
 --- !u!1 &1021138642
 GameObject:
   m_ObjectHideFlags: 0
