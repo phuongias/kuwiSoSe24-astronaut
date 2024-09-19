@@ -33400,8 +33400,8 @@ Transform:
   m_GameObject: {fileID: 1614499575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0017, y: -0.4991, z: 0}
-  m_LocalScale: {x: 0.40751487, y: 0.38166544, z: 1}
+  m_LocalPosition: {x: 0.9189, y: -0.5985, z: 0}
+  m_LocalScale: {x: 0.2452118, y: 0.2402118, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -33418,10 +33418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb2595be45ab4b4c97ea3d7add25876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 1.4
   walkSprites: []
   animationSpeed: 0.1
-  staySprite: {fileID: 0}
+  staySprite: {fileID: 21300000, guid: 7147553b1e72eec449c5ace4f9f4d13a, type: 3}
 --- !u!70 &1614499580
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -33454,8 +33454,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.007634201, y: 0.3}
-  m_Size: {x: 2.5, y: 0.5}
+  m_Offset: {x: 0.0018540313, y: -0.00013712698}
+  m_Size: {x: 1.0514934, y: 0.9850762}
   m_Direction: 1
 --- !u!95 &1614499581
 Animator:
