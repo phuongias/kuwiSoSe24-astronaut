@@ -40,6 +40,7 @@ public class MineRock : MonoBehaviour
         {
             isColliding = false;
             playerAnimator.SetBool("IsCollidingWithRock", isColliding);
+            playerAnimator.SetBool("IsCollidingWithRockAndKeyPress", isColliding);
             Debug.Log("Player not collided any longer");
         }
     }
@@ -52,12 +53,14 @@ public class MineRock : MonoBehaviour
             if (playerAnimator != null)
             {
                 playerAnimator.SetBool("IsCollidingWithRock", isColliding);
-                Debug.Log("Player colliding, playing animation");
+                Debug.Log("Player colliding, playing Think animation");
             }
         }
 
         if (isColliding && Input.GetKeyDown(KeyCode.E))  
         {
+            playerAnimator.SetBool("IsCollidingWithRockAndKeyPress", isColliding);
+            Debug.Log("Player colliding + Keypress, playing Mine animation");
             Destroy(gameObject, 2.5f);  
         }
     }
