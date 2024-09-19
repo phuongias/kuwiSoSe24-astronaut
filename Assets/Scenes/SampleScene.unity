@@ -516,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: 160}
+  m_AnchoredPosition: {x: 24, y: 172.31}
   m_SizeDelta: {x: 240.7773, y: 65.3809}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20480474
@@ -10963,6 +10963,7 @@ GameObject:
   - component: {fileID: 571103417}
   - component: {fileID: 571103416}
   - component: {fileID: 571103418}
+  - component: {fileID: 571103419}
   m_Layer: 0
   m_Name: TeilAuspuff
   m_TagString: Untagged
@@ -11031,7 +11032,7 @@ Transform:
   m_GameObject: {fileID: 571103415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.26, y: 7.2, z: 0}
+  m_LocalPosition: {x: 47.3, y: 7.5, z: 0}
   m_LocalScale: {x: 0.04943924, y: 0.056305625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11066,12 +11067,25 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 3.3701277, y: -22.786634}
   m_Size: {x: 20.948992, y: 9.34666}
   m_Direction: 1
+--- !u!114 &571103419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571103415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc97ebe3a6dc463a8abf8ff0f9b4228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpText: {fileID: 20480474}
 --- !u!1 &586663960
 GameObject:
   m_ObjectHideFlags: 0
@@ -21775,6 +21789,7 @@ GameObject:
   - component: {fileID: 1020121242}
   - component: {fileID: 1020121241}
   - component: {fileID: 1020121243}
+  - component: {fileID: 1020121244}
   m_Layer: 0
   m_Name: TeilFlagge
   m_TagString: Untagged
@@ -21843,7 +21858,7 @@ Transform:
   m_GameObject: {fileID: 1020121240}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.3932, y: 18.0942, z: 0}
+  m_LocalPosition: {x: 37.2, y: 17.4, z: 0}
   m_LocalScale: {x: 0.015530066, y: 0.014714895, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21878,12 +21893,25 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -2.8799589, y: 0.7600795}
   m_Size: {x: 35.180313, y: 18.898695}
   m_Direction: 1
+--- !u!114 &1020121244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020121240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb20f94e47562494a93f4a0761518862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpText: {fileID: 20480474}
 --- !u!1 &1021138642
 GameObject:
   m_ObjectHideFlags: 0
