@@ -39,6 +39,7 @@ public class MineRock : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isColliding = false;
+            playerAnimator.SetBool("IsCollidingWithRock", isColliding);
             Debug.Log("Player not collided any longer");
         }
     }
@@ -50,7 +51,7 @@ public class MineRock : MonoBehaviour
         {
             if (playerAnimator != null)
             {
-                playerAnimator.SetTrigger("PlayAnimation");
+                playerAnimator.SetBool("IsCollidingWithRock", isColliding);
                 Debug.Log("Player colliding, playing animation");
             }
         }
