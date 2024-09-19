@@ -2431,8 +2431,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.035201713, y: -0.19338933}
-  m_Size: {x: 1.7888213, y: 0.5199965}
+  m_Offset: {x: 0.016553344, y: -0.18323492}
+  m_Size: {x: 2.2545817, y: 0.82464916}
   m_Direction: 1
 --- !u!212 &99522479
 SpriteRenderer:
@@ -3871,8 +3871,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007971279, y: -0.18143183}
-  m_Size: {x: 1.7608835, y: 0.5813422}
+  m_Offset: {x: -0.038452215, y: -0.14499383}
+  m_Size: {x: 2.287019, y: 0.8485579}
   m_Direction: 1
 --- !u!212 &190807959
 SpriteRenderer:
@@ -3991,8 +3991,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.028532581, y: -0.16423865}
-  m_Size: {x: 1.7146664, y: 0.6142621}
+  m_Offset: {x: -0.028531948, y: -0.20067693}
+  m_Size: {x: 2.2717497, y: 0.8328916}
   m_Direction: 1
 --- !u!212 &192584050
 SpriteRenderer:
@@ -5671,8 +5671,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011336576, y: -0.16016997}
-  m_Size: {x: 1.7052469, y: 0.6088034}
+  m_Offset: {x: 0.07192249, y: 0.030046819}
+  m_Size: {x: 2.4928606, y: 0.9892389}
   m_Direction: 1
 --- !u!212 &247676173
 SpriteRenderer:
@@ -6151,8 +6151,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08773228, y: -0.12623937}
-  m_Size: {x: 1.8245368, y: 0.5828563}
+  m_Offset: {x: 0.07226298, y: -0.0047773942}
+  m_Size: {x: 2.2268727, y: 1.1172855}
   m_Direction: 1
 --- !u!212 &275249280
 SpriteRenderer:
@@ -6376,8 +6376,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014514974, y: -0.13671786}
-  m_Size: {x: 1.6516386, y: 0.68116874}
+  m_Offset: {x: 0.0197467, y: -0.14747469}
+  m_Size: {x: 2.3231676, y: 0.83176583}
   m_Direction: 1
 --- !u!212 &293009346
 SpriteRenderer:
@@ -6955,8 +6955,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01152274, y: -0.14471725}
-  m_Size: {x: 1.7464857, y: 0.59299076}
+  m_Offset: {x: 0.014351675, y: -0.16502747}
+  m_Size: {x: 2.3675053, y: 0.9179538}
   m_Direction: 1
 --- !u!212 &344706673
 SpriteRenderer:
@@ -15031,8 +15031,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000020605508, y: -0.135673}
-  m_Size: {x: 2.0000002, y: 0.5749005}
+  m_Offset: {x: -0.03881083, y: -0.17629331}
+  m_Size: {x: 2.4916544, y: 0.8592428}
   m_Direction: 1
 --- !u!212 &819994961
 SpriteRenderer:
@@ -17071,8 +17071,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020639328, y: -0.17810212}
-  m_Size: {x: 1.6287175, y: 0.5335822}
+  m_Offset: {x: 0.079887, y: -0.13159072}
+  m_Size: {x: 2.3001952, y: 0.9366201}
   m_Direction: 1
 --- !u!212 &913837862
 SpriteRenderer:
@@ -19216,8 +19216,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006738427, y: -0.15865909}
-  m_Size: {x: 1.7439688, y: 0.5544252}
+  m_Offset: {x: 0.022215514, y: -0.20724386}
+  m_Size: {x: 2.0225127, y: 0.84593165}
   m_Direction: 1
 --- !u!212 &961650005
 SpriteRenderer:
@@ -23344,8 +23344,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000026677895, y: -0.17565545}
-  m_Size: {x: 2.0000002, y: 0.58250767}
+  m_Offset: {x: -0.025874715, y: -0.1553456}
+  m_Size: {x: 2.3105283, y: 0.988713}
   m_Direction: 1
 --- !u!212 &1077103388
 SpriteRenderer:
@@ -23464,8 +23464,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006602338, y: -0.15547313}
-  m_Size: {x: 1.7491046, y: 0.5955318}
+  m_Offset: {x: -0.008567619, y: -0.03640922}
+  m_Size: {x: 2.5682378, y: 0.83366156}
   m_Direction: 1
 --- !u!212 &1088910856
 SpriteRenderer:
@@ -25196,8 +25196,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0080210855, y: -0.16999617}
-  m_Size: {x: 1.7433184, y: 0.57503664}
+  m_Offset: {x: 0.05265546, y: 0.008598862}
+  m_Size: {x: 2.714145, y: 0.9322289}
   m_Direction: 1
 --- !u!212 &1156676101
 SpriteRenderer:
@@ -26636,8 +26636,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 1.5698211}
+  m_Offset: {x: 0.030948693, y: 0}
+  m_Size: {x: 2.0618975, y: 1.618405}
   m_Direction: 0
 --- !u!212 &1271324714
 SpriteRenderer:
@@ -27678,7 +27678,7 @@ Transform:
   m_GameObject: {fileID: 1305739447}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.33, y: 13.16, z: 0}
+  m_LocalPosition: {x: 26.15, y: 13.22, z: 0}
   m_LocalScale: {x: 0.3258576, y: 0.41515258, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27716,8 +27716,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000002434011, y: -0.16026276}
-  m_Size: {x: 2.0000002, y: 0.5589285}
+  m_Offset: {x: 0.13927115, y: 0.009783976}
+  m_Size: {x: 2.278543, y: 1.0447735}
   m_Direction: 1
 --- !u!212 &1305739450
 SpriteRenderer:
@@ -29718,7 +29718,7 @@ Transform:
   m_GameObject: {fileID: 1425202958}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.89, y: 2.24, z: 0}
+  m_LocalPosition: {x: 4.038, y: 2.161, z: 0}
   m_LocalScale: {x: 0.3258576, y: 0.41515258, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29756,8 +29756,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000026620553, y: -0.17527789}
-  m_Size: {x: 2.0000002, y: 0.5571092}
+  m_Offset: {x: -0.060584605, y: 0.014938908}
+  m_Size: {x: 2.4240987, y: 0.9850994}
   m_Direction: 1
 --- !u!212 &1425202961
 SpriteRenderer:
@@ -33745,7 +33745,7 @@ Transform:
   m_GameObject: {fileID: 1658826080}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.44, y: 12.62, z: 0}
+  m_LocalPosition: {x: 21.47, y: 12.693, z: 0}
   m_LocalScale: {x: 0.3258576, y: 0.41515258, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33783,8 +33783,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000029957214, y: -0.19724749}
-  m_Size: {x: 2.0000002, y: 0.5342727}
+  m_Offset: {x: 0.030952435, y: -0.07578581}
+  m_Size: {x: 2.371385, y: 1.0201176}
   m_Direction: 1
 --- !u!212 &1658826083
 SpriteRenderer:
@@ -40948,8 +40948,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018505098, y: -0.40660897}
-  m_Size: {x: 1.4078333, y: 0.61764276}
+  m_Offset: {x: 0.005416463, y: -0.35988826}
+  m_Size: {x: 1.8657646, y: 0.7110842}
   m_Direction: 1
 --- !u!212 &1972044619
 SpriteRenderer:
@@ -41308,8 +41308,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016524497, y: -0.17506231}
-  m_Size: {x: 1.7687215, y: 0.5453806}
+  m_Offset: {x: -0.016529897, y: -0.20606516}
+  m_Size: {x: 2.4007053, y: 0.9174176}
   m_Direction: 1
 --- !u!212 &2003071235
 SpriteRenderer:
@@ -41548,8 +41548,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018505098, y: -0.40660897}
-  m_Size: {x: 1.4078333, y: 0.61764276}
+  m_Offset: {x: 0.0052242014, y: -0.33709514}
+  m_Size: {x: 2.0057716, y: 0.75667065}
   m_Direction: 1
 --- !u!212 &2007101465
 SpriteRenderer:
