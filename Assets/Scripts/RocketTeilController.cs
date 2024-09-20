@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class RocketTeilController : MonoBehaviour
 
 {
-    [SerializeField] public TextMeshProUGUI progressText;
-    public static int totalParts = 3;
-    public static int partsPickedUp = 0;
+    [SerializeField]
+    public TextMeshProUGUI progressText; 
+    public static int totalParts = 3; 
+    public static int partsPickedUp = 0; 
 
-    [SerializeField] private TextMeshProUGUI pickUpText;
+    [SerializeField]
+    private TextMeshProUGUI pickUpText;
     private bool pickUpAllowed;
-    
-    private List<string> infoMessages;
 
     private void Start()
     {
@@ -26,8 +26,6 @@ public class RocketTeilController : MonoBehaviour
     {
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
             PickUp();
-
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -50,11 +48,11 @@ public class RocketTeilController : MonoBehaviour
 
     private void PickUp()
     {
-        partsPickedUp++;
+        partsPickedUp++; // Erhöhe die Anzahl der gesammelten Teile
         UpdateProgressText();
         Destroy(gameObject);
     }
-
+    
     private void UpdateProgressText()
     {
         if (progressText != null)
@@ -66,9 +64,4 @@ public class RocketTeilController : MonoBehaviour
             }
         }
     }
-
-    
-    
-
-   
 }
