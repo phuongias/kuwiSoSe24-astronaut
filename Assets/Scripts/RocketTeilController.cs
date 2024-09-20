@@ -10,7 +10,11 @@ public class RocketTeilController : MonoBehaviour
     [SerializeField]
     public TextMeshProUGUI progressText; 
     public static int totalParts = 3; 
-    public static int partsPickedUp = 0; 
+    public static int partsPickedUp = 0;
+
+    [SerializeField]
+    public Image progressImage;
+
 
     [SerializeField]
     private TextMeshProUGUI pickUpText;
@@ -19,6 +23,7 @@ public class RocketTeilController : MonoBehaviour
     private void Start()
     {
         pickUpText.gameObject.SetActive(false);
+        progressImage.gameObject.SetActive(false);
         UpdateProgressText();
     }
 
@@ -51,6 +56,7 @@ public class RocketTeilController : MonoBehaviour
         partsPickedUp++; // Erhöhe die Anzahl der gesammelten Teile
         UpdateProgressText();
         Destroy(gameObject);
+        progressImage.gameObject.SetActive(true);
     }
     
     private void UpdateProgressText()

@@ -1,16 +1,24 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BuildRocket : MonoBehaviour
 {
     [SerializeField]
+    public Image progressImage;
+
+    [SerializeField]
     private TextMeshProUGUI buildRocketText;
     private bool buildingAllowed;
+    bool SeeFirstTime = true;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        progressImage.gameObject.SetActive(false);
         buildRocketText.gameObject.SetActive(false); // Text wird zu Beginn deaktiviert
+        
     }
 
     void Update()
@@ -20,7 +28,8 @@ public class BuildRocket : MonoBehaviour
         {
             int collectedParts = RocketTeilController.partsPickedUp;
 
-            // Wenn alle Teile gesammelt wurden
+
+
             if (collectedParts == RocketTeilController.totalParts)
             {
                 baueRakete();
@@ -36,19 +45,24 @@ public class BuildRocket : MonoBehaviour
     {
         if (collision.gameObject.name.Equals("Player"))
         {
-            buildingAllowed = true; // Spieler ist im Triggerbereich
-            buildRocketText.gameObject.SetActive(true); // Text wird aktiviert
-
             int collectedParts = RocketTeilController.partsPickedUp;
+            buildingAllowed = true; // Spieler ist im Triggerbereich
 
-            // Prüfe, ob alle Teile gesammelt wurden
-            if (collectedParts == RocketTeilController.totalParts)
+            if (SeeFirstTime == true)
             {
-                buildRocketText.text = "Drücke 'E', um die Rakete zu bauen.";
+                progressImage.gameObject.SetActive(true);
+                buildRocketText.text = "Das ist von der Rakete übrig... Ich sollte die fehlenden Teile suchen und hier herbringen.";
             }
-            else
+            buildRocketText.gameObject.SetActive(true); // Text wird 
+
+            if (SeeFirstTime == false)
             {
                 buildRocketText.text = "Der Rakete fehlen wichtige Teile...";
+            }
+
+            if (collectedParts == RocketTeilController.totalParts)
+            {
+                buildRocketText.text = "Drücke 'e', um die Rakete zusammenzubauen.";
             }
         }
     }
@@ -59,6 +73,10 @@ public class BuildRocket : MonoBehaviour
         {
             buildingAllowed = false; // Spieler verlässt den Triggerbereich
             buildRocketText.gameObject.SetActive(false); // Text wird ausgeblendet
+            if (SeeFirstTime == true)
+            {
+                SeeFirstTime = false;
+            }
         }
     }
 

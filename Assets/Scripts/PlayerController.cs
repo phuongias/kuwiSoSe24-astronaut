@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,9 @@ public class PlayerController : MonoBehaviour
     private float timeSinceLastFrame = 0f;
 
     private Animator spriteAnimator;
+
+    public AudioSource footstepSounds;
+
 
 
     private void Awake()
@@ -59,7 +63,8 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        rb.velocity = movement * moveSpeed; // Geschwindigkeit basierend auf Eingabe setzen
+        rb.velocity = movement * moveSpeed; 
+
     }
 
     private void AnimateMovement()
@@ -87,11 +92,15 @@ public class PlayerController : MonoBehaviour
 
         if (isMoving)
         {
-            AnimateMovement();
+            AnimateMovement(); 
+            footstepSounds.enabled = true;
+            Debug.LogError("test!");
+
         }
         else
         {
             spriteRenderer.sprite = staySprite; // Zeigt das Stand-Sprite an
+            footstepSounds.enabled = false;
         }
     }
 
