@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class RocketTeilController : MonoBehaviour
+public class PanelScript : MonoBehaviour
+
 
 {
     [SerializeField] public TextMeshProUGUI progressText;
@@ -13,13 +13,19 @@ public class RocketTeilController : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI pickUpText;
     private bool pickUpAllowed;
-    
+
+    [SerializeField] private GameObject messagePanel;
+    [SerializeField] private TextMeshProUGUI messageText;
     private List<string> infoMessages;
 
     private void Start()
     {
         pickUpText.gameObject.SetActive(false);
+        messageText.gameObject.SetActive(false);
+        messagePanel.SetActive(false);
+
         UpdateProgressText();
+        
     }
 
     private void Update()
@@ -52,6 +58,7 @@ public class RocketTeilController : MonoBehaviour
     {
         partsPickedUp++;
         UpdateProgressText();
+        ShowInfoMessage(partsPickedUp - 1);
         Destroy(gameObject);
     }
 
@@ -67,8 +74,19 @@ public class RocketTeilController : MonoBehaviour
         }
     }
 
-    
-    
-
    
+
+    private void ShowInfoMessage(int messageIndex)
+    {
+        if (messageIndex >= 0 && messageIndex < infoMessages.Count)
+        {
+            messageText.text = infoMessages[messageIndex];
+            messagePanel.SetActive(true);
+            messageText.gameObject.SetActive(true);
+        }
+       
+    }
+
+    
 }
+
